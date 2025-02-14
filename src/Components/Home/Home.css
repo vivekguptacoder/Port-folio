@@ -1,0 +1,46 @@
+#home{
+    position: relative;
+    text-align: center;
+}
+
+.btn{
+    margin: 2rem 0.5rem;
+}
+
+.me img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#home .socialButtons{
+    display: flex;
+    flex-direction: column;    
+    position: absolute;
+    left: 5rem;
+    bottom: 0;
+}
+
+#home .socialButtons::after{
+    content: "";
+    width: 0.17rem;
+    height: 2rem;
+    margin:0 auto;
+    background-color: var(--light);
+}
+
+.scrollDown{
+    font-size: 0.8rem;
+    letter-spacing: 0.6rem;
+    position: absolute; 
+    bottom: 5rem;
+    right: 0; 
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width : 600px) {
+    #home .socialButtons, .scrollDown{
+        display: none;
+    }
+}

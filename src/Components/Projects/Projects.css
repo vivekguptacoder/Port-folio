@@ -1,0 +1,44 @@
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 1rem;
+    text-align: left;
+}
+
+.projectCard{
+    width:15rem;
+    height: 15rem;
+    margin:1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--bgMainColor);
+    overflow: hidden;
+}
+
+.projectCard .img img{
+
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.projectCard p{
+    font-size: 1rem;
+}
+
+.projectCard button:hover{
+    opacity: 0.8
+    ;
+}
+.projectCard .btns{
+    margin: 0.5rem 0;
+}
+.projectCard a{
+    font-size: 1rem;
+    margin:0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--primary);
+ }

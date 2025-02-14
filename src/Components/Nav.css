@@ -1,0 +1,38 @@
+nav{
+    background-color: var(--bgMainColor);
+    position: fixed;
+    left:calc(50% - 9rem);
+    bottom: 3rem;
+    padding:1rem;
+    border-radius: 2rem;
+    opacity: 0.8;   
+  }
+
+nav a{
+    padding: 0.7rem;
+    margin:0.3rem;
+}
+
+nav a:hover{
+    background-color: var(--bgColor);
+    border-radius: 100%;
+}
+
+nav a.active{
+    background-color: var(--bgColor);
+    color: var(--bgMainColor);
+    border-radius: 100%;
+}
+
+.upArrow{
+    position: fixed;
+    right: 3rem;
+    bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .upArrow{
+        display: none;
+    }
+}

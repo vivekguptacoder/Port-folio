@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--bgMainColor);
+    margin-top: 6rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .socialButtons a{
+        padding: 0.5rem;
+        margin: 1rem;
+
+}
+
+.socialButtons a:hover{
+    background-color: var(--bgColor);
+    border-radius: 1rem;
+}

@@ -1,0 +1,79 @@
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    /* height: 70vh; */
+    font-size: 1rem;
+}
+
+aside, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+aside{
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+form{
+    flex: 3 ;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+h4, h5, .icon{
+    margin: 0.2rem;
+}
+ 
+button{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.email, .whatsapp, .twitter{
+    width: 13rem;
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-color:   rgba(255, 255, 255, 0.1);
+}
+
+input,textarea{
+    width: 80%;
+    height:10%;
+    padding: 1rem;
+    margin: 1rem;
+    color:white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 0.1rem solid white;
+}
+
+textarea{
+    height: 12rem;
+}
+
+form button{
+    display: block; 
+    margin: 1rem;   
+}
+
+@media screen and (max-width: 600px){
+    .contactContainer{
+        flex-direction: column;
+    }
+}
+
+/* aside{
+    background-color: grey;
+}
+
+form{
+    background-color: brown;
+} */
